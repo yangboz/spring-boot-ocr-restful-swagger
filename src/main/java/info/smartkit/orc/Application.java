@@ -23,15 +23,6 @@ public class Application {
 
     public static void main(String[] args) throws TesseractException {
         ApplicationContext ctx = SpringApplication.run(Application.class, args);
-        //
-        try {
-            Tesseract tesseract = Tesseract.getInstance(); // JNA Interface Mapping
-            String imageText = tesseract.doOCR(new File("/Users/yangboz/Documents/Git/laughing-bear/src/main/resources/api.php-2.png"));
-            System.out.println("OCR Result = " + imageText);
-        } catch (Exception e) {
-            System.out.println("TessearctException while converting/uploading image: "+ e);
-            throw new TesseractException();
-        }
     }
 
 }

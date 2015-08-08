@@ -1,0 +1,4 @@
+2015-08-08 11:12:45,974 INFO i.s.o.c.FileUploadController [qtp1553156495-25] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-11-12-45-878.png
+2015-08-08 11:12:45,987 INFO i.s.o.c.FileUploadController [qtp1553156495-25] ImageInfoDao save success: 2015-08-08-11-12-45-878.png
+2015-08-08 11:12:46,233 WARN i.s.o.c.FileUploadController [qtp1553156495-25] TessearctException while converting the uploaded image: net.sourceforge.tess4j.TesseractException: java.lang.IllegalStateException: No input source set!
+2015-08-08 11:12:46,234 ERROR i.s.o.c.FileUploadController [qtp1553156495-25] net.sourceforge.tess4j.TesseractException
