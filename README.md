@@ -24,3 +24,5 @@ Reference
 
 https://code.google.com/p/tesseract-ocr/
 
+http://tess4j.sourceforge.net/
+
