@@ -3,7 +3,7 @@ laughing-bear
 
 Spring-boot+SwaggerUI+tesseract-orc.
 
-MVN Run
+Mvn
 =============
 
 mvn spring-boot:run -Dspring.profiles.active=dev
