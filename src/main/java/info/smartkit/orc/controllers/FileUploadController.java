@@ -85,6 +85,10 @@ public class FileUploadController {
 		            Tesseract tesseract = Tesseract.getInstance(); // JNA Interface Mapping
 		            String fullFilePath = FileUtil.getUploads()+fileName;
 		            LOG.info("OCR full file path: "+fullFilePath);
+		            //setTessVariable
+		            //key - variable name, e.g., tessedit_create_hocr, tessedit_char_whitelist, etc.
+		            //value - value for corresponding variable, e.g., "1", "0", "0123456789", etc.
+		            tesseract.setTessVariable("tessedit_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
 		            String imageText = tesseract.doOCR(new File(fullFilePath));
 		            LOG.debug("SMARKIT.INFO OCR Result = " + imageText);
 		            ocrInfo.setText(imageText);

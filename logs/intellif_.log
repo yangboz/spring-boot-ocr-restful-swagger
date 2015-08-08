@@ -60,3 +60,33 @@ java.io.FileNotFoundException: class path resource [application-default.properti
 2015-08-08 11:38:42,533 INFO i.s.o.c.FileUploadController [qtp1132515159-17] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-11-38-42-527.png
 2015-08-08 11:38:42,539 INFO i.s.o.c.FileUploadController [qtp1132515159-17] ImageMagick output success: 2015-08-08-11-38-42-527.png
 2015-08-08 11:38:42,551 INFO i.s.o.c.FileUploadController [qtp1132515159-17] OCR full file path: /Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-11-38-42-527.png
+2015-08-08 14:16:55,864 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Using registered Spring Active Profiles: dev
+2015-08-08 14:16:55,904 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Loading properties for Spring Active Profile: dev
+2015-08-08 14:17:08,461 INFO i.s.o.Application [info.smartkit.orc.Application.main()] ApplicationContext:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a92c0211439014616623
+2015-08-08 14:17:08,467 INFO i.s.o.Application [info.smartkit.orc.Application.main()] OS_NAME:Mac OS X
+2015-08-08 14:20:31,121 INFO i.s.o.c.FileUploadController [qtp90644500-20] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-14-20-31-109.png
+2015-08-08 14:20:31,135 INFO i.s.o.c.FileUploadController [qtp90644500-20] ImageMagick output success: 2015-08-08-14-20-31-109.png
+2015-08-08 14:20:31,154 INFO i.s.o.c.FileUploadController [qtp90644500-20] OCR full file path: /Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-14-20-31-109.png
+2015-08-08 14:21:24,145 INFO i.s.o.c.FileUploadController [qtp90644500-20] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-14-21-24-140.png
+2015-08-08 14:21:24,147 INFO i.s.o.c.FileUploadController [qtp90644500-20] ImageMagick output success: 2015-08-08-14-21-24-140.png
+2015-08-08 14:21:24,148 INFO i.s.o.c.FileUploadController [qtp90644500-20] OCR full file path: /Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-14-21-24-140.png
+2015-08-08 15:42:37,936 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Using registered Spring Active Profiles: dev
+2015-08-08 15:42:37,941 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Loading properties for Spring Active Profile: dev
+2015-08-08 15:42:47,226 INFO i.s.o.Application [info.smartkit.orc.Application.main()] ApplicationContext:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5548d69d1439019758016
+2015-08-08 15:42:47,235 INFO i.s.o.Application [info.smartkit.orc.Application.main()] OS_NAME:Mac OS X
+2015-08-08 16:04:12,651 INFO i.s.o.c.FileUploadController [qtp513016036-29] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-16-04-12-614.png
+2015-08-08 16:04:12,679 INFO i.s.o.c.FileUploadController [qtp513016036-29] ImageMagick output success: 2015-08-08-16-04-12-614.png
+2015-08-08 16:04:12,768 INFO i.s.o.c.FileUploadController [qtp513016036-29] OCR full file path: /Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-16-04-12-614.png
+2015-08-08 16:28:47,357 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Using registered Spring Active Profiles: dev
+2015-08-08 16:28:47,362 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Loading properties for Spring Active Profile: dev
+2015-08-08 16:28:56,076 INFO i.s.o.Application [info.smartkit.orc.Application.main()] ApplicationContext:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7081eb2e1439022527564
+2015-08-08 16:28:56,085 INFO i.s.o.Application [info.smartkit.orc.Application.main()] OS_NAME:Mac OS X
+2015-08-08 16:29:15,375 INFO i.s.o.c.FileUploadController [qtp1078194800-18] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-16-29-15-369.png
+2015-08-08 16:29:15,382 INFO i.s.o.c.FileUploadController [qtp1078194800-18] ImageMagick output success: 2015-08-08-16-29-15-369.png
+2015-08-08 16:29:15,400 INFO i.s.o.c.FileUploadController [qtp1078194800-18] OCR full file path: /Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-16-29-15-369.png
+2015-08-08 16:29:41,599 INFO i.s.o.c.FileUploadController [qtp1078194800-30] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-16-29-41-590.png
+2015-08-08 16:29:41,605 INFO i.s.o.c.FileUploadController [qtp1078194800-30] ImageMagick output success: 2015-08-08-16-29-41-590.png
+2015-08-08 16:29:41,622 INFO i.s.o.c.FileUploadController [qtp1078194800-30] OCR full file path: /Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-16-29-41-590.png
+2015-08-08 16:29:53,969 INFO i.s.o.c.FileUploadController [qtp1078194800-21] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-16-29-53-960.png
+2015-08-08 16:29:53,974 INFO i.s.o.c.FileUploadController [qtp1078194800-21] ImageMagick output success: 2015-08-08-16-29-53-960.png
+2015-08-08 16:29:53,975 INFO i.s.o.c.FileUploadController [qtp1078194800-21] OCR full file path: /Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-16-29-53-960.png
