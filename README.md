@@ -14,13 +14,7 @@ Swagger UI
 
 http://localhost:8083/api/static/index.html
 
-Response Body
+Curl
 =============
 
-{
-  "data": {
-    "time": 1182,
-    "text": "wcvirf\n\n",
-    "uri": "http://192.168.2.28:8083/api/uploads/2015-08-08-11-38-42-527.png"
-  }
-}
+curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@raw_ocr.png" http://localhost:8083/api/info/smartkit/orc/file/upload
