@@ -2,3 +2,61 @@
 2015-08-08 11:12:45,987 INFO i.s.o.c.FileUploadController [qtp1553156495-25] ImageInfoDao save success: 2015-08-08-11-12-45-878.png
 2015-08-08 11:12:46,233 WARN i.s.o.c.FileUploadController [qtp1553156495-25] TessearctException while converting the uploaded image: net.sourceforge.tess4j.TesseractException: java.lang.IllegalStateException: No input source set!
 2015-08-08 11:12:46,234 ERROR i.s.o.c.FileUploadController [qtp1553156495-25] net.sourceforge.tess4j.TesseractException
+2015-08-08 11:33:20,282 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] No Active Profiles found, using Spring Default Profiles: default
+2015-08-08 11:33:20,287 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Loading properties for Spring Active Profile: default
+2015-08-08 11:33:20,290 ERROR i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] ERROR during environment properties setup - TRYING TO LOAD: default
+java.io.FileNotFoundException: class path resource [application-default.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:150) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:73) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:114) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at info.smartkit.orc.configs.PropertiesInitializer.initialize(PropertiesInitializer.java:37) [classes/:?]
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:567) [spring-boot-1.2.4.RELEASE.jar:1.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.2.4.RELEASE.jar:1.2.4.RELEASE]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139) [spring-boot-1.2.4.RELEASE.jar:1.2.4.RELEASE]
+	at info.smartkit.orc.Application.main(Application.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40-ea]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40-ea]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40-ea]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40-ea]
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418) [spring-boot-maven-plugin-1.2.4.RELEASE.jar:1.2.4.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_40-ea]
+2015-08-08 11:33:30,004 INFO i.s.o.Application [info.smartkit.orc.Application.main()] ApplicationContext:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3c984e3b1439004800379
+2015-08-08 11:33:30,010 INFO i.s.o.Application [info.smartkit.orc.Application.main()] OS_NAME:Mac OS X
+2015-08-08 11:33:54,420 INFO i.s.o.c.FileUploadController [qtp380446643-20] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-11-33-54-343.png
+2015-08-08 11:33:54,436 INFO i.s.o.c.FileUploadController [qtp380446643-20] ImageMagick output success: 2015-08-08-11-33-54-343.png
+2015-08-08 11:33:54,447 INFO i.s.o.c.FileUploadController [qtp380446643-20] OCR full file path: /Volumes/Transcend/github/laughing-bear/src/main/resources//Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-11-33-54-343.png
+2015-08-08 11:33:54,645 WARN i.s.o.c.FileUploadController [qtp380446643-20] TessearctException while converting the uploaded image: net.sourceforge.tess4j.TesseractException: java.lang.IllegalStateException: No input source set!
+2015-08-08 11:33:54,645 ERROR i.s.o.c.FileUploadController [qtp380446643-20] net.sourceforge.tess4j.TesseractException
+2015-08-08 11:36:36,516 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] No Active Profiles found, using Spring Default Profiles: default
+2015-08-08 11:36:36,521 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Loading properties for Spring Active Profile: default
+2015-08-08 11:36:36,526 ERROR i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] ERROR during environment properties setup - TRYING TO LOAD: default
+java.io.FileNotFoundException: class path resource [application-default.properties] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:172) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.EncodedResource.getInputStream(EncodedResource.java:150) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:98) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.fillProperties(PropertiesLoaderUtils.java:72) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties(PropertiesLoaderUtils.java:58) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:73) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at org.springframework.core.io.support.ResourcePropertySource.<init>(ResourcePropertySource.java:114) ~[spring-core-4.1.6.RELEASE.jar:4.1.6.RELEASE]
+	at info.smartkit.orc.configs.PropertiesInitializer.initialize(PropertiesInitializer.java:37) [classes/:?]
+	at org.springframework.boot.SpringApplication.applyInitializers(SpringApplication.java:567) [spring-boot-1.2.4.RELEASE.jar:1.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.2.4.RELEASE.jar:1.2.4.RELEASE]
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139) [spring-boot-1.2.4.RELEASE.jar:1.2.4.RELEASE]
+	at info.smartkit.orc.Application.main(Application.java:50) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_40-ea]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_40-ea]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_40-ea]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_40-ea]
+	at org.springframework.boot.maven.RunMojo$LaunchRunner.run(RunMojo.java:418) [spring-boot-maven-plugin-1.2.4.RELEASE.jar:1.2.4.RELEASE]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_40-ea]
+2015-08-08 11:38:28,981 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Using registered Spring Active Profiles: dev
+2015-08-08 11:38:29,034 INFO i.s.o.c.PropertiesInitializer [info.smartkit.orc.Application.main()] Loading properties for Spring Active Profile: dev
+2015-08-08 11:38:38,068 INFO i.s.o.Application [info.smartkit.orc.Application.main()] ApplicationContext:org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28e1ebe1439005109108
+2015-08-08 11:38:38,074 INFO i.s.o.Application [info.smartkit.orc.Application.main()] OS_NAME:Mac OS X
+2015-08-08 11:38:42,533 INFO i.s.o.c.FileUploadController [qtp1132515159-17] Upload file success./Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-11-38-42-527.png
+2015-08-08 11:38:42,539 INFO i.s.o.c.FileUploadController [qtp1132515159-17] ImageMagick output success: 2015-08-08-11-38-42-527.png
+2015-08-08 11:38:42,551 INFO i.s.o.c.FileUploadController [qtp1132515159-17] OCR full file path: /Volumes/Transcend/github/laughing-bear/target/classes/uploads/2015-08-08-11-38-42-527.png

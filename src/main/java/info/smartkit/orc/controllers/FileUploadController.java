@@ -36,6 +36,7 @@ import info.smartkit.orc.dto.JsonObject;
 import info.smartkit.orc.dto.JsonString;
 import info.smartkit.orc.dto.OcrInfo;
 import info.smartkit.orc.utils.FileUtil;
+import info.smartkit.orc.utils.OcrInfoHelper;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 
@@ -76,13 +77,16 @@ public class FileUploadController {
 			try {
 				// Image resize operation.
 				fileName = _imageMagickOutput.get(ImageSize.ori.toString());
-				LOG.info("ImageInfoDao save success: " + fileName);
-				ocrInfo.setUri(fileName);
+				LOG.info("ImageMagick output success: " + fileName);
+				 String imageUrl = OcrInfoHelper.getRemoteImageUrl(fileName);
+				ocrInfo.setUri(imageUrl);
 				// OCRing:
 		        try {
 		            Tesseract tesseract = Tesseract.getInstance(); // JNA Interface Mapping
-		            String imageText = tesseract.doOCR(new File(fileName));
-		            LOG.debug("OCR Result = " + imageText);
+		            String fullFilePath = FileUtil.getUploads()+fileName;
+		            LOG.info("OCR full file path: "+fullFilePath);
+		            String imageText = tesseract.doOCR(new File(fullFilePath));
+		            LOG.debug("SMARKIT.INFO OCR Result = " + imageText);
 		            ocrInfo.setText(imageText);
 		            //Timing calculate
 		    		long endTime = System.currentTimeMillis();
