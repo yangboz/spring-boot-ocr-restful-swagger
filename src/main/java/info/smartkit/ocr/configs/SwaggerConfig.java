@@ -1,4 +1,4 @@
-package info.smartkit.orc.configs;
+package info.smartkit.ocr.configs;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

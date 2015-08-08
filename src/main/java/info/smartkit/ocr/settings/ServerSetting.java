@@ -1,4 +1,4 @@
-package info.smartkit.orc.settings;
+package info.smartkit.ocr.settings;
 
 /**
  * The Class ServerSetting.

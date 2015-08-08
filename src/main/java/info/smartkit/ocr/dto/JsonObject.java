@@ -1,4 +1,4 @@
-package info.smartkit.orc.dto;
+package info.smartkit.ocr.dto;
 
 /**
  * The Class JsonObject.

@@ -1,4 +1,4 @@
-package info.smartkit.orc.utils;
+package info.smartkit.ocr.utils;
 
 public class FileUtil {
 

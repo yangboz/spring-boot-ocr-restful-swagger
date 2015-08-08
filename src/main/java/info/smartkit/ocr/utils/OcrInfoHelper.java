@@ -1,8 +1,8 @@
-package info.smartkit.orc.utils;
+package info.smartkit.ocr.utils;
 
 import java.util.regex.Pattern;
 
-import info.smartkit.orc.settings.ServerSetting;
+import info.smartkit.ocr.settings.ServerSetting;
 
 
 /**

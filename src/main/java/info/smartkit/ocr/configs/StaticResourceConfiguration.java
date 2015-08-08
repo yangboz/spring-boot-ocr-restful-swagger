@@ -1,4 +1,4 @@
-package info.smartkit.orc.configs;
+package info.smartkit.ocr.configs;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;

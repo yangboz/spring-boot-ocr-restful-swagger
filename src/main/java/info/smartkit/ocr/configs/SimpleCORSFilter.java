@@ -1,4 +1,4 @@
-package info.smartkit.orc.configs;
+package info.smartkit.ocr.configs;
 
 import java.io.IOException;
 import javax.servlet.Filter;

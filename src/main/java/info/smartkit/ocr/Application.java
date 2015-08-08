@@ -1,4 +1,4 @@
-package info.smartkit.orc;
+package info.smartkit.ocr;
 
 import org.apache.commons.lang.SystemUtils;
 import org.apache.logging.log4j.LogManager;
@@ -9,7 +9,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
-import info.smartkit.orc.configs.PropertiesInitializer;
+import info.smartkit.ocr.configs.PropertiesInitializer;
 
 @PropertySources({ @PropertySource(value = "classpath:application-${spring.profiles.active}.properties") })
 //@Configuration

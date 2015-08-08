@@ -1,4 +1,4 @@
-package info.smartkit.orc.dto;
+package info.smartkit.ocr.dto;
 
 public class JsonString {
 	public JsonString(String body) {

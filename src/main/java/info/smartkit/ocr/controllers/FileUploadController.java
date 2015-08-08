@@ -1,4 +1,4 @@
-package info.smartkit.orc.controllers;
+package info.smartkit.ocr.controllers;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -32,11 +32,11 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.wordnik.swagger.annotations.ApiOperation;
 
-import info.smartkit.orc.dto.JsonObject;
-import info.smartkit.orc.dto.JsonString;
-import info.smartkit.orc.dto.OcrInfo;
-import info.smartkit.orc.utils.FileUtil;
-import info.smartkit.orc.utils.OcrInfoHelper;
+import info.smartkit.ocr.dto.JsonObject;
+import info.smartkit.ocr.dto.JsonString;
+import info.smartkit.ocr.dto.OcrInfo;
+import info.smartkit.ocr.utils.FileUtil;
+import info.smartkit.ocr.utils.OcrInfoHelper;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 

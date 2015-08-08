@@ -1,4 +1,4 @@
-package info.smartkit.orc.utils;
+package info.smartkit.ocr.utils;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;

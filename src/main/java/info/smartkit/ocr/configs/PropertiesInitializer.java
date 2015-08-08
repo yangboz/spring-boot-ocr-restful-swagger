@@ -1,4 +1,4 @@
-package info.smartkit.orc.configs;
+package info.smartkit.ocr.configs;
 
 import java.io.IOException;
 
@@ -10,7 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.io.support.ResourcePropertySource;
 
-import info.smartkit.orc.settings.ServerSetting;
+import info.smartkit.ocr.settings.ServerSetting;
 
 /**
  * Register this with the DispatcherServlet in a ServletInitializer class like:
