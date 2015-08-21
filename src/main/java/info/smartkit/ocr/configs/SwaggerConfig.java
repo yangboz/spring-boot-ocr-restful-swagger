@@ -29,7 +29,7 @@ public class SwaggerConfig {
 	      return new SwaggerSpringMvcPlugin(this.springSwaggerConfig)
 	            .apiInfo(apiInfo())
 //	            .pathProvider(pathProvider)
-	            .includePatterns("/info/smartkit/orc/.*");
+	            .includePatterns("/info/smartkit/ocr/.*");
 	   }
 
 	    private ApiInfo apiInfo() {

@@ -44,7 +44,7 @@ import net.sourceforge.tess4j.TesseractException;
  * The Class FileUploadController.
  */
 @RestController
-// @RequestMapping("constellation")
+//@RequestMapping(value = "/info/smartkit/ocr/file/upload")
 // @see: http://spring.io/guides/gs/reactor-thumbnailer/
 public class FileUploadController {
 	//
@@ -56,8 +56,8 @@ public class FileUploadController {
 	}
 
 	// @see: https://spring.io/guides/gs/uploading-files/
-	@RequestMapping(method = RequestMethod.POST, value = "/info/smartkit/orc/file/upload", consumes = MediaType.MULTIPART_FORM_DATA)
-	@ApiOperation(httpMethod = "POST", value = "Response a string describing invoice' picture is successfully uploaded or not.")
+	@RequestMapping(method = RequestMethod.POST, value = "/info/smartkit/ocr/file/upload", consumes = MediaType.MULTIPART_FORM_DATA)
+	@ApiOperation(httpMethod = "POST", value = "Response a string describing OCR' picture is successfully uploaded or not.")
 	public @ResponseBody JsonObject handleSingleFileUpload(
 			// @RequestParam(value = "name", required = false, defaultValue =
 			// "default_input_image_file_name") String name,
