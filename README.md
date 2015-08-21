@@ -1,7 +1,7 @@
 laughing-bear
 =============
 
-Spring-boot+SwaggerUI+Tesseract-orc.
+Spring-boot+SwaggerUI+Tesseract-ocr.
 
 Mvn
 =============
