@@ -105,7 +105,7 @@
 	</dependencies>
 
 	<properties>
-		<start-class>info.smartkit.orc.Application</start-class>
+		<start-class>info.smartkit.ocr.Application</start-class>
 	</properties>
 
 	<build>
@@ -113,6 +113,21 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.5</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>pmd</goal>
+							<goal>cpd</goal>
+							<goal>check</goal>
+							<goal>cpd-check</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 		</plugins>
 	</build>
@@ -138,5 +153,28 @@
 			<url>http://repo.spring.io/libs-release</url>
 		</pluginRepository>
 	</pluginRepositories>
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.5</version>
+				<configuration>
+					<linkXref>true</linkXref>
+					<sourceEncoding>utf-8</sourceEncoding>
+					<minimumTokens>100</minimumTokens>
+					<targetJdk>1.5</targetJdk>
+					<excludes>
+						<exclude>**/*Bean.java</exclude>
+						<exclude>**/generated/*.java</exclude>
+					</excludes>
+					<excludeRoots>
+						<excludeRoot>target/generated-sources/stubs</excludeRoot>
+					</excludeRoots>
+				</configuration>
+			</plugin>
+		</plugins>
+	</reporting>
 
 </project>
