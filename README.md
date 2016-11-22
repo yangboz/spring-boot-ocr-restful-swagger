@@ -6,7 +6,29 @@ Spring-boot+SwaggerUI+Tesseract-ocr.
 Tesseract
 =============
 
-https://github.com/tesseract-ocr/tesseract/wiki
+`
+brew install tesseract
+`
+
+`
+mkdir -p ./tessdata
+`
+
+`
+cd ./tessdata
+`
+
+`
+wget http://tesseract-ocr.googlecode.com/files/chi_sim.traineddata.gz
+`
+
+`
+wget http://tesseract-ocr.googlecode.com/files/chi_tra.traineddata.gz
+`
+
+`
+gunzip chi_sim.traineddata.gz chi_tra.traineddata.gz
+`
 
 Mvn
 =============
@@ -30,4 +52,6 @@ Reference
 https://code.google.com/p/tesseract-ocr/
 
 http://tess4j.sourceforge.net/
+
+https://github.com/tesseract-ocr/tesseract/wiki
 
