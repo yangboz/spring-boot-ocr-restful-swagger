@@ -7,29 +7,8 @@ Tesseract
 =============
 
 `
-brew install tesseract
+brew install tesseract --with-all-languages 
 `
-
-`
-mkdir -p ./tessdata
-`
-
-`
-cd ./tessdata
-`
-
-`
-wget http://tesseract-ocr.googlecode.com/files/chi_sim.traineddata.gz
-`
-
-`
-wget http://tesseract-ocr.googlecode.com/files/chi_tra.traineddata.gz
-`
-
-`
-gunzip chi_sim.traineddata.gz chi_tra.traineddata.gz
-`
-
 Mvn
 =============
 `
