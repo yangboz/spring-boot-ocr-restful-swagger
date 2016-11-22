@@ -13,22 +13,32 @@ public class StaticResourceConfiguration extends WebMvcConfigurerAdapter {
 	/**
 	 * Add our static resources folder mapping.
 	 */
+//	@Override
+//	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+//		//
+//		registry.addResourceHandler("/**").addResourceLocations(
+//				CLASSPATH_RESOURCE_LOCATIONS);
+//		//
+//		registry.addResourceHandler("/uploads/**").addResourceLocations(
+//				"classpath:/uploads/");
+//		// Activiti repository resources(diagram picture,process BPM files).
+//		// registry.addResourceHandler("/repository/**").addResourceLocations("classpath:/repository/");
+//		// Jasper report
+//		registry.addResourceHandler("/static/**").addResourceLocations(
+//				"classpath:/static/");
+//		// registry.addResourceHandler("/reports/**").addResourceLocations("classpath:/reports/");
+//		//
+//		super.addResourceHandlers(registry);
+//	}
+
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
-		//
-		registry.addResourceHandler("/**").addResourceLocations(
-				CLASSPATH_RESOURCE_LOCATIONS);
-		//
-		registry.addResourceHandler("/uploads/**").addResourceLocations(
-				"classpath:/uploads/");
-		// Activiti repository resources(diagram picture,process BPM files).
-		// registry.addResourceHandler("/repository/**").addResourceLocations("classpath:/repository/");
-		// Jasper report
-		registry.addResourceHandler("/static/**").addResourceLocations(
-				"classpath:/static/");
-		// registry.addResourceHandler("/reports/**").addResourceLocations("classpath:/reports/");
-		//
-		super.addResourceHandlers(registry);
+		registry.addResourceHandler("swagger-ui.html")
+				.addResourceLocations("classpath:/META-INF/resources/");
+
+		registry.addResourceHandler("/webjars/**")
+				.addResourceLocations("classpath:/META-INF/resources/webjars/");
 	}
+
 
 }
