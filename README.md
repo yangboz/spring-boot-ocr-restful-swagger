@@ -22,9 +22,11 @@ http://localhost:8083/api/swagger-ui.html
 
 Curl
 =============
+
 `
 curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@raw_ocr.png" http://localhost:8083/api/info/smartkit/orc/tesseract
 `
+
 Reference
 =============
 
