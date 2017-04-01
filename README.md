@@ -9,8 +9,10 @@ Tesseract
 `
 brew install tesseract --with-all-languages 
 `
+
 Mvn
 =============
+
 `
 mvn spring-boot:run -Dspring.profiles.active=dev
 `
