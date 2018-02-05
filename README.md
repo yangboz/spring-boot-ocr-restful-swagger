@@ -47,5 +47,7 @@ http://tess4j.sourceforge.net/
 
 https://github.com/tesseract-ocr/tesseract/wiki
 
+https://github.com/tesseract-ocr/tessdata
+
 http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
 
