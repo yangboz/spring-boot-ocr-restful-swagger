@@ -18,7 +18,7 @@ Mvn
 =============
 
 `
-mvn spring-boot:run -Dspring.profiles.active=dev
+mvn spring-boot:run -Dspring.profiles.active=dev -DTESSDATA_PREFIX=/Users/yangboz/git/laughing-bear/src/main/resources/tessdata/
 `
 
 MicroService
