@@ -10,6 +10,10 @@ Tesseract
 brew install tesseract --with-all-languages 
 `
 
+`
+export TESSDATA_PREFIX=/usr/local/Cellar/tesseract/3.05.01/share/tessdata
+`
+
 Mvn
 =============
 
