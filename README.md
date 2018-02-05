@@ -51,3 +51,8 @@ https://github.com/tesseract-ocr/tessdata
 
 http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
 
+Know Issues
+==============
+
+https://github.com/nguyenq/tess4j/issues/34
+
