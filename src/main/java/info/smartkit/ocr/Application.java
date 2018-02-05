@@ -11,6 +11,8 @@ import org.springframework.context.annotation.PropertySources;
 
 import info.smartkit.ocr.configs.PropertiesInitializer;
 
+import java.util.Properties;
+
 @PropertySources({ @PropertySource(value = "classpath:application-${spring.profiles.active}.properties") })
 //@Configuration
 //@EnableAutoConfiguration
@@ -37,5 +39,9 @@ public class Application {
 		LOG.info("ApplicationContext:" + context.getDisplayName() + context.getStartupDate());
 		//
 		LOG.info("OS_NAME:" + SystemUtils.OS_NAME);
+		//Please make sure the TESSDATA_PREFIX environment variable is set to the parent directory of your "tessdata" directory.
+//		Properties props = System.getProperties();
+//		props.setProperty("TESSDATA_PREFIX", "/Users/yangboz/git/laughing-bear/src/main/resources/tessdata/");
+
 	}
 }

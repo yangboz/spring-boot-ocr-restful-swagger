@@ -52,8 +52,8 @@ public class OCRsController {
 	@ApiOperation(value = "Response a string describing OCR' picture is successfully uploaded or not.")
 //	@ApiImplicitParams({@ApiImplicitParam(name="Authorization", value="Authorization DESCRIPTION")})
 	public @ResponseBody JsonObject TesseractFileUpload(
-			// @RequestParam(value = "name", required = false, defaultValue =
-			// "default_input_image_file_name") String name,
+			 @RequestParam(value = "language", required = false, defaultValue =
+			 "eng") String language,
 			// @RequestParam(value = "owner", required = false, defaultValue =
 			// "default_intellif_corp") String owner,
 			@RequestPart(value = "file") @Valid @NotNull @NotBlank MultipartFile file) {
@@ -80,16 +80,18 @@ public class OCRsController {
 		            LOG.info("OCR full file path: "+fullFilePath);
 		            //setTessVariable
 		            //key - variable name, e.g., tessedit_create_hocr, tessedit_char_whitelist, etc.
+					tesseract.setDatapath("/usr/local/share/tessdata/");
 		            //value - value for corresponding variable, e.g., "1", "0", "0123456789", etc.
 		            tesseract.setTessVariable("tessedit_char_whitelist", "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789");
+					tesseract.setLanguage(language);
 		            String imageText = tesseract.doOCR(new File(fullFilePath));
-		            LOG.debug("SMARKIT.INFO OCR Result = " + imageText);
+		            LOG.debug("Tesseract OCR Result = " + imageText);
 		            ocrInfo.setText(imageText);
 		            //Timing calculate
 		    		long endTime = System.currentTimeMillis();
 		    		ocrInfo.setTime(endTime - startTime);//"That took " + (endTime - startTime) + " milliseconds"
 		        } catch (Exception e) {
-		            LOG.warn("TessearctException while converting the uploaded image: "+ e);
+		            LOG.warn("Tessearct Exception while converting the uploaded image: "+ e);
 		            throw new TesseractException();
 		        }
 			} catch (Exception ex) {

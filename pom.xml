@@ -5,7 +5,7 @@
 	<groupId>info.smartkit.www</groupId>
 	<artifactId>info.smartkit.ocr</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring-boot with tesseract-orc</name>
+	<name>Spring-boot with tesseract-orc and others</name>
 	<description>https://code.google.com/p/tesseract-ocr/</description>
 
 	<parent>
@@ -128,6 +128,7 @@
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.9.13</version>
 		</dependency>
+		<!-- OCRs-->
 	</dependencies>
 
 	<properties>

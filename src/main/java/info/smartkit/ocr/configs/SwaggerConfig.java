@@ -49,7 +49,7 @@ public class SwaggerConfig {
                 "SMARTKIT.INFO description of API.",
                 "API TOS",
                 "Terms of service",
-                "smartkit@msn.com",
+                "contact@smartkit.info",
                 "License of API",
                 "API license URL");
         return apiInfo;
