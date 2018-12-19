@@ -41,7 +41,11 @@ curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@raw_ocr.png" ht
 TODO
 ============
 
-OCR v4: https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
+OCR v4: 
+
+https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
+
+https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/
 
 Reference
 =============
