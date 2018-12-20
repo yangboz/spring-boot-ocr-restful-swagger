@@ -38,6 +38,15 @@ Curl
 curl -i -X POST -H "Content-Type: multipart/form-data" -F "file=@raw_ocr.png" http://localhost:8083/api/info/smartkit/orc/tesseract
 ```
 
+TODO
+============
+
+OCR v4: 
+
+https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
+
+https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/
+
 Reference
 =============
 
