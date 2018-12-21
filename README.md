@@ -68,6 +68,8 @@ http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
 
 https://medium.com/@balaajip/optical-character-recognition-99aba2dad314
 
+https://github.com/tesseract-ocr/tesseract/wiki/Command-Line-Usage
+
 Know Issues
 ==============
 
