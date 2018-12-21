@@ -14,6 +14,12 @@ brew install tesseract --with-all-languages
 export TESSDATA_PREFIX=/usr/local/Cellar/tesseract/3.05.01/share/tessdata
 ```
 
+Commandline Example with parametertes:
+
+```
+tesseract input.jpeg output --oem 1 -l eng
+```
+
 Mvn
 =============
 
